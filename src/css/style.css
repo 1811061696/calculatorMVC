@@ -1,0 +1,78 @@
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  }
+  
+  .app {
+    background-color: #ccc;
+    width: 310px;
+    height: 480px;
+    padding: 20px 30px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow:0 8px 8px 0 rgba(103, 151, 255, .11), 0 12px 18px 0 rgba(103, 151, 255, .11);
+  }
+
+  
+  .result{
+    width: 100%;
+    min-height: 38px;
+    padding-right: 8px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    color: #ccc;
+    box-shadow:0 8px 8px 0 rgba(103, 151, 255, .11), 0 12px 18px 0 rgba(103, 151, 255, .11);
+  }
+  
+  .form-button {
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+
+
+
+  .number,
+  .math,
+  .poin,
+  .equal,
+  .clear{
+    height: 60px;
+    width: 60px;
+    font-size: 23px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    background-color: #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(241, 239, 239, 0.712), 0 2px 15px 0 rgb(241, 239, 239, 0.712);
+    transition: background 0.3s linear;
+  }
+
+
+  .number:focus,
+  .math:focus,
+  .poin:focus,
+  .equal:focus,
+  .clear:focus {
+    transform: scale(0.9);
+  }
+
+
+  .number:hover,
+  .math:hover,
+  .poin:hover,
+  .equal:hover,
+  .clear:hover {
+    cursor: pointer;
+    background-color: #008000;
+  }
+  
+  
+  
